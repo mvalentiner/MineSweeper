@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18D6C40922139589003C3786 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 18D6C40822139589003C3786 /* README.md */; };
+		4C31E449226AEFED00E40AD9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4C31E448226AEFED00E40AD9 /* README.md */; };
 		4CCDE1802252AD780089BF7F /* Minefield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCDE17F2252AD780089BF7F /* Minefield.swift */; };
 		4CCDE1822252F6DA0089BF7F /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 4CCDE1812252F6DA0089BF7F /* Cartfile */; };
 		4CCDE1862252F7BF0089BF7F /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCDE1842252F7BF0089BF7F /* ReactiveSwift.framework */; };
@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18D6C40822139589003C3786 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; wrapsLines = 1; };
+		4C31E448226AEFED00E40AD9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4CCDE17F2252AD780089BF7F /* Minefield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minefield.swift; sourceTree = "<group>"; };
 		4CCDE1812252F6DA0089BF7F /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		4CCDE1842252F7BF0089BF7F /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = iSweeper/Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
@@ -59,6 +59,7 @@
 		C61B5E861EA14CB600607BF5 = {
 			isa = PBXGroup;
 			children = (
+				4C31E448226AEFED00E40AD9 /* README.md */,
 				C61B5E911EA14CB600607BF5 /* MineSweeper */,
 				C61B5E901EA14CB600607BF5 /* Products */,
 				4CCDE1832252F7BF0089BF7F /* Frameworks */,
@@ -85,7 +86,6 @@
 				C6F445AB1EA5631400D6F440 /* MinefieldCollectionViewCell.swift */,
 				4CCDE17F2252AD780089BF7F /* Minefield.swift */,
 				C61B5E941EA14CB600607BF5 /* MinefieldViewController.swift */,
-				18D6C40822139589003C3786 /* README.md */,
 			);
 			path = MineSweeper;
 			sourceTree = "<group>";
@@ -154,8 +154,8 @@
 			files = (
 				4CCDE1822252F6DA0089BF7F /* Cartfile in Resources */,
 				C61B5E9D1EA14CB600607BF5 /* LaunchScreen.storyboard in Resources */,
+				4C31E449226AEFED00E40AD9 /* README.md in Resources */,
 				C61B5E9A1EA14CB600607BF5 /* Assets.xcassets in Resources */,
-				18D6C40922139589003C3786 /* README.md in Resources */,
 				C61B5E981EA14CB600607BF5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
