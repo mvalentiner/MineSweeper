@@ -1,4 +1,20 @@
-# iSweeper
+# MineSweeper README
+
+I was given a coding assignment by a company I interviewed with to write the classic MineSweeper game. https://en.wikipedia.org/wiki/Minesweeper_(video_game)
+I cranked this out and here's the result.  A little crude in the UI, but it works and was fun to write.
+
+To build, make sure to run
+	```carthage update --platform iOS```
+
+I used Xcode 10.2.1 and Swift 5.
+
+Your obective is to flag all the mines. To play,
+	• single click to flag a cell contianing a mine,
+	• double-click to sweep (open the cell).
+
+Sorry, there's no "Replay" button.  You have to kill the app and relaunch.
+
+## MineSweeper
 
 Write an iOS implementation of the greatest contribution to software Microsoft has ever made -- Minesweeper! You may use whatever tools you like, but preference will be given to solutions that use standard UIKit components, over third-party components.
 
