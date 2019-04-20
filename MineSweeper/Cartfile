@@ -1,0 +1,4 @@
+# To build, run:
+#	carthage update --platform iOS
+#
+github "ReactiveCocoa/ReactiveSwift" ~> 6.0.0
